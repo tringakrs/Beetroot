@@ -31,5 +31,8 @@ function stringMethod6(str1){;
     return str1.split("");;
 }
 
+function stringMethod7(str1){;
+    return str1.padEnd (44, str1);
+}
 
-export {dbCon, test, stringMethod1, stringMethod2, stringMethod3, stringMethod4, stringMethod5, stringMethod6}
+export {dbCon, test, stringMethod1, stringMethod2, stringMethod3, stringMethod4, stringMethod5, stringMethod6, stringMethod7}

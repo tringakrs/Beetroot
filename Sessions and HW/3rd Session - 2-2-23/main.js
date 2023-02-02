@@ -1,5 +1,5 @@
 import http from "http";
-import {dbCon, test, stringMethod1, stringMethod2, stringMethod3, stringMethod4, stringMethod5} from "./dbCon.js"
+import {dbCon, test, stringMethod1, stringMethod2, stringMethod3, stringMethod4, stringMethod5, stringMethod6, stringMethod7} from "./dbCon.js"
 //importat e moduleve masi e kena ndrru type ne type="module"
 
 const port = 3000;
@@ -17,4 +17,6 @@ server.listen(port,localhost,function () {
     console.log("Metoda toLowerCase: "+stringMethod3('HELLO'));
     console.log("Metoda slice: "+stringMethod4('abcdefHELLOsdfj'));
     console.log("Metoda replace: "+stringMethod5("Hello", "Ckemi"));
+    console.log("Metoda split: "+stringMethod6("Hello"));
+    console.log("Metoda padEnd: "+stringMethod7("Hello"));
 })
