@@ -27,4 +27,9 @@ function stringMethod5(str1){;
     return str1.replace(str1, "Ckemi");;
 }
 
-export {dbCon, test, stringMethod1, stringMethod2, stringMethod3, stringMethod4, stringMethod5}
+function stringMethod6(str1){;
+    return str1.split("");;
+}
+
+
+export {dbCon, test, stringMethod1, stringMethod2, stringMethod3, stringMethod4, stringMethod5, stringMethod6}
