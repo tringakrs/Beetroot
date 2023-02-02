@@ -1,0 +1,34 @@
+import te file, funksioneve, http mas type="module"
+thirrja e metodave
+definimi i metodave
+event loop - node e kthen nga sync ne async
+sync e kryn 1 proces dhe vazhdon rresht per rresht deri ne fund te file
+async kryn disa pune por merr edhe proces tjeter pa rradhe. kryn procese te pavarura prej procesit te pare shembull setTimeOut
+js nuk eshte multi thread po event loop mundohet me bo ne thonjeza
+data types:
+1. undefined
+2. null
+3. string
+4. number
+5. boolean
+6. symbol
+7. objects
+8. bigint
+RESEARCH SA MA SHUME BUILT IN METODA TE STRING.
+String length
+String slice()
+String substring()
+String substr()
+String replace()
+String replaceAll()
+String toUpperCase()
+String toLowerCase()
+String concat()
+String trim()
+String trimStart()
+String trimEnd()
+String padStart()
+String padEnd()
+String charAt()
+String charCodeAt()
+String split()
