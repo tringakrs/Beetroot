@@ -35,5 +35,23 @@ Eshte framework
 Paketa apo dependency e zgjedh nje problemt e caktum
 Framework kur behen disa paketa bashke - zgjerim i env i gjuhes qe me punu ma leht se me pure nodejs
 //--(quhen flag)
-//instalojme espress
+//instalojme express
 npm install express --save
+
+//gjeneratori na krijon app.js
+npx express-generator
+npm i
+localhost:3000
+
+"packages": {
+"": {
+    "name": "e-app-two",
+    "version": "0.0.0",
+    "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.1"
+    }
