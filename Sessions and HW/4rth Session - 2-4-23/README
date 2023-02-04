@@ -29,3 +29,11 @@ SSH
 git add . 
 git commit "emri_i_commit"
 git push //nuk kena nevoje per origin... se e din vet
+
+EXPRESS
+Eshte framework
+Paketa apo dependency e zgjedh nje problemt e caktum
+Framework kur behen disa paketa bashke - zgjerim i env i gjuhes qe me punu ma leht se me pure nodejs
+//--(quhen flag)
+//instalojme espress
+npm install express --save
