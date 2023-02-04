@@ -1,0 +1,6 @@
+hello
+
+//git status
+//git init
+//git commit -a "emri_i_commit"
+//git logs
