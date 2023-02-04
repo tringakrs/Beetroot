@@ -1,0 +1,31 @@
+GitHub
+kemi dy ndarje te git: local dhe bucket
+//me provu a u bo install ne terminal
+git --version
+git local
+//cdo here duhet ne fillim kjo komande dhe behet vetem nje here
+git init
+//tregon statusin e projektit apo file-ave tone mrena projektit(sa file i kena fshi, ndryshu, shtu)
+git status
+//cilet file dojna me i shtu ne stage me i bo commit
+git add emri_i_file ose .(per krejt file) ise *.js(cdo file me prapashtes js)
+//vec mas git add
+git commit
+git push
+//cfare commit kemi
+git logs
+bucket
+//me clone komplet nje respo te caktume
+git clone URL
+
+BitBucket
+cd /path/to/your/repo
+git remote add origin https://TringaKrasniqi@bitbucket.org/beetroot-nodejs/demo.git
+//a ki remote
+git remote
+git push -u origin master
+//Use SSH to avoid password prompts when you push code to Bitbucket.
+SSH
+git add . 
+git commit "emri_i_commit"
+git push //nuk kena nevoje per origin... se e din vet
