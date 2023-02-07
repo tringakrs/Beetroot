@@ -1,0 +1,2 @@
+//delete node_modules qe i kena bo commit ma heret
+git rm --cached -r "node_modules"
