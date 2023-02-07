@@ -1,10 +1,4 @@
-var express = require('express');
-var router = express.Router();
-
-/* GET users listing. */
-router.get('/', function(req, res, next) {
-
-//Session 5
+//ARRAY METHODS
 const obj1 = {name: 'Tringa'};
 const array1 = ['tringa', 'krasniqi']
 console.log(obj1);
@@ -52,8 +46,3 @@ const obj3 = {
 console.log(Object.isFrozen(obj3));
 Object.freeze(obj3);
 console.log(Object.isFrozen(obj3));
-
-  res.send('respond with a resource');
-});
-
-module.exports = router;
