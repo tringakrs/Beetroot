@@ -15,7 +15,7 @@ git push
 //cfare commit kemi
 git logs
 bucket
-//me clone komplet nje respo te caktume
+//me clone komplet nje repo te caktume
 git clone URL
 
 BitBucket
