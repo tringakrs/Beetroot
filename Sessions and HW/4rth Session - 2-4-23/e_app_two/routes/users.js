@@ -54,6 +54,7 @@ const array1 = ['tringa', 'krasniqi']
 // console.log(Object.isFrozen(obj3));
 
 //Session 6
+//Me shti array ne Objekt
 console.log({array1});
 
   res.send('respond with a resource');
