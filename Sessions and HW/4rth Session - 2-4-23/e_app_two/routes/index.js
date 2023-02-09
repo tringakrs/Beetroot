@@ -63,7 +63,9 @@ fs.appendFile('text1.txt', 'data to append', function (err) {
   if (err) throw err;
   console.log('Saved!');
 });
+//masi async po e mbishkrun e pe kryn procesin ma t'shpejt qka munet kshtu qe duhet sinkron
 
+//Rename
 fs.rename('text1.txt', 'newFileName.txt', function(err) {
   if (err) throw err;
   console.log('File Renamed!');
