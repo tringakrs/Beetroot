@@ -79,3 +79,16 @@ TERMINAL:
     }
     console.log(data);
   })
+
+//ose toString()
+  fs.readFile('text1.txt', function(err, data){
+    if(err){
+      console.log(err);
+      return;
+    }
+    console.log(data.toString());
+  })
+
+});
+
+//RESEARCH per append

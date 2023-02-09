@@ -58,6 +58,17 @@ router.get('/', function(req, res, next) {
     console.log(data.toString());
   })
 
+//Append
+fs.appendFile('text1.txt', 'data to append', function (err) {
+  if (err) throw err;
+  console.log('Saved!');
+});
+
+fs.rename('text1.txt', 'newFileName.txt', function(err) {
+  if (err) throw err;
+  console.log('File Renamed!');
+});
+
 });
 
 
