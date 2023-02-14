@@ -37,3 +37,5 @@ console.log(path.join('/foo', 'bar', 'baz/asdf', 'quux', '..'));
 
 //path.join('foo', {}, 'bar');
 // Throws 'TypeError: Path must be a string. Received {}'
+
+//Me kriju 1 file, lexu, ndryshu, fshi me 1 folder

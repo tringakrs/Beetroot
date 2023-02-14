@@ -10,7 +10,7 @@ const { dirname } = require('path');
 const path= require('path');
 
 console.log(path);
-
+/*
 //Path metodat
 const pathTestDir = path.basename(__dirname);
 const pathTestFile = path.basename(__filename);
@@ -42,11 +42,56 @@ console.log(path.join('/foo', 'bar', 'baz/asdf', 'quux', '..'));
 
 //path.join('foo', {}, 'bar');
 // Throws 'TypeError: Path must be a string. Received {}'
+*/
 
+//CRUD 1 file ne folder ne folder files
+//Write
+// Create the directory if it doesn't exist
+if (!fs.existsSync('Files')) {
+  fs.mkdirSync('Files');
+  console.log('Directory created');
+}
 
+// Write the file to the directory
+fs.writeFile('Files/text1.txt', 'Hello World!', function (err) {
+  if (err) {
+    console.log(err);
+  } else {
+    console.log('File written successfully');
+  }
+});
 
+  //Read
+  fs.readFile('Files/text1.txt', function(err, data){
+    if(err){
+      console.log(err);
+      return;
+    }
+    console.log(data.toString());
+  })
 
+//Rename
+fs.renameSync('Files/text1.txt', 'Files/newText.txt', function(err) {
+  if (err) throw err;
+  console.log('File Renamed!');
+});
 
+//Delete
+const filePath = 'Files/newText.txt';
+
+// Check if the file exists
+if (fs.existsSync(filePath)) {
+  // Delete the file
+  fs.unlink(filePath, (err) => {
+    if (err) {
+      console.log(err);
+    } else {
+      console.log('File deleted successfully');
+    }
+  });
+} else {
+  console.log('File does not exist');
+}
 
 /* GET home page. */
 // router.get('/', function(req, res, next) {
@@ -76,21 +121,21 @@ router.get('/', function(req, res, next) {
   })
 
   //READ FILE KTHEN STRING
-  // fs.readFile('text1.txt', function(err, data){
-  //   if(err){
-  //     console.log(err);
-  //     return;
-  //   }
-  //   console.log(data);
-  // })
+  fs.readFile('text1.txt', function(err, data){
+    if(err){
+      console.log(err);
+      return;
+    }
+    console.log(data);
+  })
 
-  // fs.readFile('text1.txt', 'utf8', function(err, data){
-  //   if(err){
-  //     console.log(err);
-  //     return;
-  //   }
-  //   console.log(data);
-  // })
+  fs.readFile('text1.txt', 'utf8', function(err, data){
+    if(err){
+      console.log(err);
+      return;
+    }
+    console.log(data);
+  })
 
   //toString() mnyra tjeter per me kthy tekstin
   fs.readFile('text1.txt', function(err, data){
