@@ -89,8 +89,6 @@ if (fs.existsSync(filePath)) {
       console.log('File deleted successfully');
     }
   });
-} else {
-  console.log('File does not exist');
 }
 
 /* GET home page. */
