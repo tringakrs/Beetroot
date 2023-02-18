@@ -10,7 +10,7 @@ git status
 //cilet file dojna me i shtu ne stage me i bo commit
 git add emri_i_file ose .(per krejt file) ise *.js(cdo file me prapashtes js)
 //vec mas git add
-git commit
+git commit -m "mesazhi"
 git push
 //cfare commit kemi
 git logs

@@ -1,0 +1,11 @@
+{
+  "name": "8th-session---2-16-23",
+  "version": "1.0.0",
+  "description": "//PYTJE N'TEORI\r 1. Cfare data types kemi?",
+  "main": "main.js",
+  "scripts": {
+    "test": "node main.js"
+  },
+  "author": "",
+  "license": "ISC"
+}

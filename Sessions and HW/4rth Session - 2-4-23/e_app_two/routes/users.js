@@ -1,12 +1,14 @@
 var express = require('express');
 var router = express.Router();
+//Session 8
+const EventEmitter = require('events')
 
 /* GET users listing. */
 router.get('/', function(req, res, next) {
 
 //Session 5
-const obj1 = {name: 'Tringa'};
-const array1 = ['tringa', 'krasniqi']
+// const obj1 = {name: 'Tringa'};
+// const array1 = ['tringa', 'krasniqi']
 // console.log(obj1);
 
 // //ARRAY
@@ -55,9 +57,37 @@ const array1 = ['tringa', 'krasniqi']
 
 //Session 6
 //Me shti array ne Objekt
-console.log({array1});
+// console.log({array1});
 
-  res.send('respond with a resource');
+//Session 8
+const event= new EventEmitter();
+//EventEmitter eshte klase per qat arsyje fillon me te madhe.
+//Kena kriju instance
+
+console.log(event);
+//Kthen metoda te event
+
+//event.on()
+event.addListener('event1', ()=>{
+  console.log('fire event1')
+})
+//Komplet njejt response on edhe addListener. Kto na mundesoje qe te emit me mujt me thirre event
+
+//Thirrja e nje eventi
+event.emit('event1');
+
+//eventNmes
+console.log(event.eventNames());
+//kthen ['event1']
+
+eventEmitter.on(event1, listener)
+eventEmitter.once(event1, listener)
+
+server.once('connection', (stream) => {
+  console.log('Ah, we have our first user!');
+});
+
+   res.send('respond with a resource');
 });
 
 module.exports = router;
