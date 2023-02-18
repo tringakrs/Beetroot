@@ -17,6 +17,8 @@ git checkout -b feature/session6
 //Me i shiku branch-at
 git branch
 //Merge branch ne UI ne Git
+git push --set-upstream origin feature/EventExample    
+//me bo push ne branch te ri
 
 //Modul i Node-it File System
 Modul shume i rendesishem se mundemi me pase interaction me PC dhe me Server.
