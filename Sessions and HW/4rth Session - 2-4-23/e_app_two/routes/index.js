@@ -7,9 +7,9 @@ const { dirname } = require('path');
 //console.log(fs);
 
 //Session 7 - path
-const path= require('path');
+// const path= require('path');
 
-console.log(path);
+// console.log(path);
 /*
 //Path metodat
 const pathTestDir = path.basename(__dirname);
@@ -47,49 +47,49 @@ console.log(path.join('/foo', 'bar', 'baz/asdf', 'quux', '..'));
 //CRUD 1 file ne folder ne folder files
 //Write
 // Create the directory if it doesn't exist
-if (!fs.existsSync('Files')) {
-  fs.mkdirSync('Files');
-  console.log('Directory created');
-}
+// if (!fs.existsSync('Files')) {
+//   fs.mkdirSync('Files');
+//   console.log('Directory created');
+// }
 
-// Write the file to the directory
-fs.writeFile('Files/text1.txt', 'Hello World!', function (err) {
-  if (err) {
-    console.log(err);
-  } else {
-    console.log('File written successfully');
-  }
-});
+// // Write the file to the directory
+// fs.writeFile('Files/text1.txt', 'Hello World!', function (err) {
+//   if (err) {
+//     console.log(err);
+//   } else {
+//     console.log('File written successfully');
+//   }
+// });
 
-  //Read
-  fs.readFile('Files/text1.txt', function(err, data){
-    if(err){
-      console.log(err);
-      return;
-    }
-    console.log(data.toString());
-  })
+//   //Read
+//   fs.readFile('Files/text1.txt', function(err, data){
+//     if(err){
+//       console.log(err);
+//       return;
+//     }
+//     console.log(data.toString());
+//   })
 
-//Rename
-fs.renameSync('Files/text1.txt', 'Files/newText.txt', function(err) {
-  if (err) throw err;
-  console.log('File Renamed!');
-});
+// //Rename
+// fs.renameSync('Files/text1.txt', 'Files/newText.txt', function(err) {
+//   if (err) throw err;
+//   console.log('File Renamed!');
+// });
 
-//Delete
-const filePath = 'Files/newText.txt';
+// //Delete
+// const filePath = 'Files/newText.txt';
 
-// Check if the file exists
-if (fs.existsSync(filePath)) {
-  // Delete the file
-  fs.unlink(filePath, (err) => {
-    if (err) {
-      console.log(err);
-    } else {
-      console.log('File deleted successfully');
-    }
-  });
-}
+// // Check if the file exists
+// if (fs.existsSync(filePath)) {
+//   // Delete the file
+//   fs.unlink(filePath, (err) => {
+//     if (err) {
+//       console.log(err);
+//     } else {
+//       console.log('File deleted successfully');
+//     }
+//   });
+// }
 
 /* GET home page. */
 // router.get('/', function(req, res, next) {
