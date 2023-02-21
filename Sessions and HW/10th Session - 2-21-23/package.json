@@ -1,0 +1,11 @@
+{
+  "name": "10th-session---2-21-23",
+  "version": "1.0.0",
+  "description": "OS Module in NodeJs",
+  "main": "main.js",
+  "scripts": {
+    "test": "node main.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
