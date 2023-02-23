@@ -1,5 +1,5 @@
 Event
-Cdo here qe useri qe ne client side klikon nje buton apo ben reload faden e ben trigger nje event me ndodhe.
+Cdo here qe useri ne client side klikon nje buton apo ben reload faden e ben trigger nje event me ndodhe.
 NodeJs event driven architecture. Nje pjese e madhe e NodeJs thirre prej modulit ne modul.
 
 //Events
@@ -14,8 +14,6 @@ Cka eshte klasa?
 Cka eshte objekti?
 
 Konceptet e OOP?
-
-Cka jon konceptet?
 
 Cka jon getters setters? Pse me ju qase mes ktyne jo variables?
 Nese kanihere kena thon mos tkhe null me ju qase me variabel cka kish shkru useri nuk ish validu po me metode set na ja kena caktu.
