@@ -48,3 +48,17 @@ promis1.then((data) => {
 }).catch((err) => {
     console.log(err)
 })
+
+//Krijo një funksion readDirectory(directoryPath) që lexon një direktori permes readdir dhe kthen një promis nese ka mundur ta gjej apo shfaq error.
+const promis2 = new Promise((resolve, reject) => {
+    fs.readdir("./", (err, data) => {
+        if (err) reject(err)
+        else resolve(data)
+    })
+})
+
+promis2.then((data) => {
+    console.log(data)
+}).catch((err) => {
+    console.log(err)
+})
