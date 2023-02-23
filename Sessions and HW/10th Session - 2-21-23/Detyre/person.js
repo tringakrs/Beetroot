@@ -65,6 +65,6 @@ class Person {
 
 //Eksporto klasën “Person” nga “person.js”. krijo inctancen , testo metodat.
  // Exportimi i klasës "Person" nga "person.js"
- 
-  module.exports = Person;
+
+module.exports = Person;
   

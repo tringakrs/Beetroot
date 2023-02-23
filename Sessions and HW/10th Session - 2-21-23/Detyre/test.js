@@ -6,7 +6,7 @@ const person1 = new Person('John', 25, 'mashkull', 'john@example.com');
 // Testo metoden "introduce"
 console.log(person1.introduce());
 
-// Testo metodat
+// Testo metodat e marrjes dhe vendosjes së atributeve
 console.log(person1.emri); // John
 person1.emri = 'Jane';
 console.log(person1.emri); // Jane
