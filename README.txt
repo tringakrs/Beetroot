@@ -25,3 +25,6 @@ eshte dicka jashte env te node.
 
 How does programming language communicate with database?
 Permes driver-ave POST, Port, username etj
+
+Pse eshte bo TypeScript?
+Se js nuk ka pase Data Type e me ja shtu ato.
