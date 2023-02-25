@@ -38,12 +38,13 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
 //routes jane lokacionet nga rrejdhin requests
-//
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
   next(createError(404));
 });
+//12th Session
+//Nese nuk gjen route na kthen 404
 
 // error handler
 app.use(function(err, req, res, next) {
