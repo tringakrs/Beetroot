@@ -30,8 +30,8 @@ app.get('/people', (req, res) => {
 
 // GET a specific person by ID
 app.get('/people/:id', (req, res) => {
-  const id = parseInt(req.params.id);
-  const person = people.find(p => p.id === id);
+  const id = parseInt(req.params.id); //ne vend te params query per me testu me query
+  const person = people.find(p => p.id == id);//kur e kemi parseint lirisht e heqim 1 barazim
   if (!person) {
     return res.status(404).json({ error: `Person with ID ${id} not found` });
   }
