@@ -39,3 +39,13 @@ Më pas programi duhet të printojë rezultatet në terminal. Parametrat duhet t
 
 TS e ka qe mundesh 1 type amo per 2 type kshtu qe sintaksa
 const x:number 
+
+
+Detyre Shtepie
+Krijoni një interface file quajtur “Shape” me atributet e mëposhtme:
+name (string)
+color (string)
+Krijoni dy klasa TypeScript quajtur “Rectangle” dhe “Circle” që implementojnë interface “Shape”.
+Klasa “Rectangle” duhet të ketë atributet shtesë “width” dhe “height”, dhe një konstruktor që inicializon këto atributet së bashku me atributet “name” dhe “color” që trashëgon nga interface “Shape”. Ajo gjithashtu duhet të ketë një metodë quajtur “area” që kthen sipërfaqen e drejtkëndëshit this.width * this.height;
+Klasa “Circle” duhet të ketë një atribut shtesë “radius”, dhe një konstruktor që inicializon këtë atribut së bashku me atributet “name” dhe “color” që trashëgon nga interface “Shape”. Ajo gjithashtu duhet të ketë një metodë quajtur “area” që kthen sipërfaqen e rrethit (e cila është e barabartë me Math.PI * Math.pow(this.radius, 2);
+Per gjdo variabel qe deklarohet te vendosen return type.
