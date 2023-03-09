@@ -6,6 +6,8 @@ import { Result } from './entity/Result';
 import { Grade } from "./entity/Grade";
 import { Details } from './entity/Details';
 import { Customer } from './entity/Costumer';
+import { Category } from './entity/Category';
+import { Question } from './entity/Question';
 
 export const AppDataSource = new DataSource({
     type: "postgres",
@@ -16,7 +18,7 @@ export const AppDataSource = new DataSource({
     database: "session_15",
     synchronize: true,
     logging: false,
-    entities: [User, Student, Result, Grade, Details, Customer,],
+    entities: [User, Student, Result, Grade, Details, Customer, Category, Question],
     migrations: [],
     subscribers: [],
 })

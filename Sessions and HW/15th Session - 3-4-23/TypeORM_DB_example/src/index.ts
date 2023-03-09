@@ -3,6 +3,8 @@ import { User } from "./entity/User"
 import { Student } from "./entity/Student"; //import Student entity
 import { Customer } from "./entity/Costumer";
 import { Details } from "./entity/Details";
+import { Category } from './entity/Category';
+import { Question } from './entity/Question';
 
 //async 
 function test(): boolean{
@@ -64,6 +66,21 @@ AppDataSource.initialize().then(async () => {
     // customer.name = 'customer1';
     // customer.details = details;
     // await AppDataSource.manager.save(customer);
+
+    //Session 16 - Many to Many
+    const category = new Category();
+    category.name = "Dicka"
+    await AppDataSource.manager.save(category);
+
+    const question = new Question();
+    question.title = "Titulli 1"
+    question.text = "Pershkrimi"
+
+    question.categories = [category];
+    await AppDataSource.manager.save(question);
+   
+
+
 
     console.log("Here you can setup and run express / fastify / any other framework.")
 
