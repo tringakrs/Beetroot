@@ -16,3 +16,6 @@ kemi 4 feature qe nuk guxojme krejt rolet e user me pase qasje psh ne conatact a
 kemi tabelen user
 
 presmission based eshte me komplekse se edhe mbrenda feature mundemi dicka me pase qe mundemi me pa apo jo psh te financa ka te drejt me read por jo me ndrru ngjyren e pychart po ashtu edhe mbrenda admin me i bo disa admina.
+
+CKA KENA BO SOT NE KOD TE PROJEKTI
+kena shtu fields te user ne kod, kena kriju project edhe per kete tabel kena kriju entitet, enums, dtos, interface, model edhe e kena thirre ne app module 
