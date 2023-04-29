@@ -4,8 +4,10 @@ import {Entity, PrimaryGeneratedColumn, Column} from "typeorm";
 export class Details {
  @PrimaryGeneratedColumn()
  id: number;
+
  @Column()
  gender: string;
+ 
  @Column()
  country: string;
 }

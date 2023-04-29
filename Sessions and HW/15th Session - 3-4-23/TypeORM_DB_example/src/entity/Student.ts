@@ -3,6 +3,7 @@ import {Entity, PrimaryGeneratedColumn, Column, Generated} from "typeorm";
 export class Student {
  @PrimaryGeneratedColumn()
  id: number;
+ 
  @Column()
  @Generated("uuid")
  uuid: string;

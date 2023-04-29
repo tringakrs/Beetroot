@@ -10,6 +10,7 @@ import { Question } from './entity/Question';
 function test(): boolean{
     return true;
 }
+
 //nuk bon se nuk kthen promise
 async function test2() : Promise<boolean>{
     return true;
@@ -23,8 +24,6 @@ Conn2.initialize().then(async ()=>{
 }).catch(err => console.error(err))
 
 AppDataSource.initialize().then(async () => {
-
-    //Per me i kthy users edhe na duhet await sepse 
     const conn = AppDataSource.manager;
     const userRepository = await conn.getRepository(User);
     const result = await userRepository.createQueryBuilder('user').select().getMany();

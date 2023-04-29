@@ -80,10 +80,6 @@ Sets the object's prototype (its internal [[Prototype]] property).
 Object.values()
 Returns an array containing the values that correspond to all of a given object's own enumerable string properties.
 
-//Deklarimi i Array
-const arr = [] // pa value
-const arr = ['value 1', 'value 2'] // me value
-
 //Metodat e Array
 concat()
 copyWithin()
