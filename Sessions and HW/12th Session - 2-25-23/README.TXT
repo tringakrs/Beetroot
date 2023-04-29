@@ -4,14 +4,15 @@ Ato qe i zhvillojme ne jane GRPC, GraphQL, Restful.
 
 Ne kemi me msu Restful API.
 
-Client komunikon me Server me API por kur nje server deshiron me komuniku me 1 server sepse qajo e dhene nuk gjendet te server 1 vetem e kemi dergu request te serveri 2 dhe merret e dhena.
+Client komunikon me Server me API por kur nje server deshiron me komuniku me 1 server sepse qajo e dhene nuk gjendet 
+te server 1 vetem e kemi dergu request te serveri 2 dhe merret e dhena.
 Te dhenat jane ne format JSON.
 
 Jane disa parakushte per API nje environment, dokumentim.
 
 POSTMAN edhe Swagger.
 
-Status code 200 qe kthen dicka, 4040 Not Found, 403 Frobidden kur nuk ni access dmth me marre request etj.
+Status code 200 qe kthen dicka, 404 Not Found, 403 Frobidden kur nuk ni access dmth me marre request etj.
 
 Endpoint
 
@@ -28,7 +29,7 @@ app.use(function(req, res, next) {
 
 Swagger - API documentation tool
 https://fakerestapi.azurewebsites.net/index.html
-Ka beenfite se integrohet ne projketin ku punojme si dependency.
+Ka benefite se integrohet ne projketin ku punojme si dependency.
 Ka decorator ose anotation.
 Merr paramentra nga metodat dhe i vendos ne API.
 

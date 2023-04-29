@@ -28,7 +28,9 @@ Cka ka sasi te madhe te te dhenave i vendosim ne Server jo db si psh. OS, foto, 
 //Dokumentimi per File System
 https://nodejs.org/api/fs.html
 
-//Me kriju edhe me write ne nje File//Session 6 - thirrja e file system
+//Me kriju edhe me write ne nje File
+
+//Session 6 - thirrja e file system
 const fs = require('fs');
 //Me i listu
 console.log(fs);
@@ -90,8 +92,6 @@ TERMINAL:
     }
     console.log(data.toString());
   })
-
-});
 
 //RESEARCH per append edhe renameFile
 //Append

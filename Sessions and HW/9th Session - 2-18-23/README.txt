@@ -23,9 +23,12 @@ Abstraksion i plote interface, kurse klasa abstrakte edhe metoda abstrakte edhe 
 Trashegimia - qysh i kena thirre preperties te klases te trashegume eshte me super, kurse me this ato qe jane ne te klase.
 
 /*
-Krijo nje app node/express ku thirret moduli event . krijo/thirr eventin me emer “runEvent_1” i cili kur thirreth  return “Hello from events”. 
-Krijo nje evnet tjeter ku ne parameter pranon nje objekt obj1= {init:‘Node’,version ‘18’} dhe kthen mesazhin “object from events: {init:‘Node’,version ‘18’}” . 
-krijo ne evnet tjeter “testEvent” ku kthen mesazhin “only test”. shfqaq numrin total te eventeve dhe ne fun fshij evnetin “testEvent”. Krijo nje repo te re, push 
+Krijo nje app node/express ku thirret moduli event . 
+krijo/thirr eventin me emer “runEvent_1” i cili kur thirreth  return “Hello from events”. 
+Krijo nje event tjeter ku ne parameter pranon nje objekt obj1= {init:‘Node’,version ‘18’} dhe 
+kthen mesazhin “object from events: {init:‘Node’,version ‘18’}” . 
+krijo ne eveet tjeter “testEvent” ku kthen mesazhin “only test”. shfqaq numrin total te eventeve dhe ne fun fshij 
+evetin “testEvent”. Krijo nje repo te re, push 
 aplikacionin ne branch example-event-1 duke shtuar paraprakisht edhe .gitignore file.
 */
 // const EventEmmiter=require("events");
